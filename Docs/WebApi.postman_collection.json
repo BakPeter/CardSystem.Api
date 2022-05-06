@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "598c3f0a-a416-4347-911c-99dd78efe9cc",
+		"name": "WebApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get all cards",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5030/api/cards",
+					"host": [
+						"localhost"
+					],
+					"port": "5030",
+					"path": [
+						"api",
+						"cards"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add card",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"cardHolderName\": \"eli\",\r\n  \"cardNumber\": \"3445152\",\r\n  \"expiryMoth\": 10,\r\n  \"expiryYear\": 1010,\r\n  \"cvc\": 3220\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5030/api/cards",
+					"host": [
+						"localhost"
+					],
+					"port": "5030",
+					"path": [
+						"api",
+						"cards"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update card",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"cardId\": \"2e8f53ec-f632-4854-bb9f-0ab6e8fcf50d\",\r\n  \"cardHolderName\": \"updted name\",\r\n  \"cardNumber\": \"1111111111\",\r\n  \"expiryMoth\": 110,\r\n  \"expiryYear\": 110,\r\n  \"cvc\": 111\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5030/api/cards/2e8f53ec-f632-4854-bb9f-0ab6e8fcf504",
+					"host": [
+						"localhost"
+					],
+					"port": "5030",
+					"path": [
+						"api",
+						"cards",
+						"2e8f53ec-f632-4854-bb9f-0ab6e8fcf504"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete card",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:5030/api/cards/c21f8a32-805d-4b0d-a10b-4283e360cbc9",
+					"host": [
+						"localhost"
+					],
+					"port": "5030",
+					"path": [
+						"api",
+						"cards",
+						"c21f8a32-805d-4b0d-a10b-4283e360cbc9"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

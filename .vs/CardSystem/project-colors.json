@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "496d5c29-e913-4a7d-aa2d-cdbfce7fd1aa": {
+      "ProjectGuid": "496d5c29-e913-4a7d-aa2d-cdbfce7fd1aa",
+      "DisplayName": "Cards.API",
+      "ColorIndex": 0
+    },
+    "5755fafc-781d-4257-bb91-00c47675ead7": {
+      "ProjectGuid": "5755fafc-781d-4257-bb91-00c47675ead7",
+      "DisplayName": "Cards.DAL",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "9fdcb3ad-4d14-49ce-9cef-acd95632ba4c": {
+      "ProjectGuid": "9fdcb3ad-4d14-49ce-9cef-acd95632ba4c",
+      "DisplayName": "docker-compose",
+      "ColorIndex": 2
+    },
+    "18186a42-7859-4599-97bb-4cb6f0f302df": {
+      "ProjectGuid": "18186a42-7859-4599-97bb-4cb6f0f302df",
+      "DisplayName": "Cards.Dal.Contracts",
+      "ColorIndex": 3
+    },
+    "e395f8df-659e-48dd-9234-67d7533a765b": {
+      "ProjectGuid": "e395f8df-659e-48dd-9234-67d7533a765b",
+      "DisplayName": "Cards.Dal.Contracts",
+      "ColorIndex": 4
+    },
+    "1bb1a162-488b-426e-a9e8-45237918f2a0": {
+      "ProjectGuid": "1bb1a162-488b-426e-a9e8-45237918f2a0",
+      "DisplayName": "Cards.Dal.Ef.Implememtation",
+      "ColorIndex": 5
+    },
+    "1b6908ed-d10a-476d-9b06-a6601c728ff7": {
+      "ProjectGuid": "1b6908ed-d10a-476d-9b06-a6601c728ff7",
+      "DisplayName": "Cards.WebApi",
+      "ColorIndex": 6
+    },
+    "5f1dfb33-70da-4778-919c-140ad63823b2": {
+      "ProjectGuid": "5f1dfb33-70da-4778-919c-140ad63823b2",
+      "DisplayName": "docker-compose",
+      "ColorIndex": 7
+    },
+    "a69f18ad-be0f-4362-96ce-a810b74b99c6": {
+      "ProjectGuid": "a69f18ad-be0f-4362-96ce-a810b74b99c6",
+      "DisplayName": "Cards.Models",
+      "ColorIndex": 8
+    },
+    "eb8839f5-e3bc-4efb-b3d0-87b177938db0": {
+      "ProjectGuid": "eb8839f5-e3bc-4efb-b3d0-87b177938db0",
+      "DisplayName": "MigrationCreator",
+      "ColorIndex": 9
+    },
+    "20d9a8bf-0cbe-474e-99bf-43c867e1bc48": {
+      "ProjectGuid": "20d9a8bf-0cbe-474e-99bf-43c867e1bc48",
+      "DisplayName": "Cards.Dto",
+      "ColorIndex": 10
+    }
+  },
+  "NextColorIndex": 11
+}
