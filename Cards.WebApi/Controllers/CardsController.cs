@@ -55,10 +55,11 @@ namespace Cards.WebApi.Controllers
             if (result.Error == null)
             {
                 if (result.AddedCardId != null)
-                    //return StatusCode(StatusCodes.Status201Created, result);
-                    return CreatedAtAction(nameof(GetCard), new { id= result.AddedCardId }, dto);
+                    return StatusCode(StatusCodes.Status201Created, result);
+                //return CreatedAtAction(nameof(GetCard), new { id= result.AddedCardId }, dto);
                 else
-                    return NotFound(result);
+                    return StatusCode(StatusCodes.Status400BadRequest, result);
+                    //return NotFound(result);
             }
             else
             {
@@ -90,7 +91,7 @@ namespace Cards.WebApi.Controllers
 
         [HttpDelete]
         [Route("{id:guid}")]
-        public async Task<ActionResult<DeleteCardResponse>> UpdateCard([FromRoute] Guid id)
+        public async Task<ActionResult<DeleteCardResponse>> DeleteCard([FromRoute] Guid id)
         {
             var result = await _cardsDalService.DeleteCard(new DeleteCardRequest { CardId = id });
 

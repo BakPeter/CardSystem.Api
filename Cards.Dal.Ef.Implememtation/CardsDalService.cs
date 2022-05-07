@@ -74,7 +74,7 @@ namespace Cards.Dal.Ef.Implememtation
                     Id = Guid.NewGuid(),
                     CardHolderName = dto.CardHolderName,
                     CardNumber = dto.CardNumber,
-                    ExpiryMoth = dto.ExpiryMoth,
+                    ExpiryMonth = dto.ExpiryMoth,
                     ExpiryYear = dto.ExpiryYear,
                     CVC = dto.CVC,
                 };
@@ -107,7 +107,7 @@ namespace Cards.Dal.Ef.Implememtation
                     existingCard.CardHolderName = dto.CardHolderName;
                     existingCard.CardNumber = dto.CardNumber;
                     existingCard.ExpiryYear = dto.ExpiryYear;
-                    existingCard.ExpiryMoth = dto.ExpiryMoth;
+                    existingCard.ExpiryMonth = dto.ExpiryMoth;
                     existingCard.CVC = dto.CVC;
 
                     await SaveChangesAsync();
